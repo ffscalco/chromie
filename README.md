@@ -1,6 +1,6 @@
 # chromie
 
-This project is a [Rails](http://rubyonrails.org/) application used to SOMETHING.
+This project is a [Rails](http://rubyonrails.org/) used to automatically send your working hours with just a quick set up.
 
 ## Dependencies
 
@@ -19,7 +19,7 @@ If you plan to **integrate** this project to Heroku, you'll need:
 ## Setup the project
 
 1. Install the dependencies above
-2. `$ git clone <REPOSITORY_URL> chromie` - Clone the project
+2. `$ git clone git@github.com:ffscalco/chromie.git` - Clone the project
 3. `$ cd chromie` - Go into the project folder
 4. `$ bin/setup` - Run the setup script
 5. `$ bin/rspec` - Run the specs to see if everything is working fine
@@ -65,7 +65,3 @@ First, check of your project has the correct configuration from [jumpup-heroku](
 6. `$ git checkout master` - Checkout to `master` branch (so you don't commit directly on `production` branch)
 
 :warning: All your daily work must be done on the `master` branch (or in a feature branch), never on `production` branch! The only thing you do on `production` is merging the changes from `master` and deploying to Heroku.
-
-## Generated with PAH
-
-Generated with [PAH](https://github.com/Helabs/pah), an open source project created and maintained by [HE:labs](http://helabs.com.br).
