@@ -1,0 +1,50 @@
+// Ratio mixins
+// --------------------------------------------------
+
+@include make-ratio($size; $columns; $rows) {
+	$item: ~'.ratio-${size}-${columns}_${rows}';
+	${item} {
+		//padding: (5px * $columns) 0;
+	}
+	${item}:before {
+		padding-top: (100% / $columns) * $rows;
+	}
+}
+
+
+/*
+// Example usage
+
+@include make-ratio(xs, 2, 1);
+@include make-ratio(xs, 3, 1);
+
+
+// Small grid
+//
+// Small device range, from phones to tablets@mixin 
+
+@media (min-width: $screen-sm-min) {
+	@include make-ratio(sm, 2, 1);
+	@include make-ratio(sm, 3, 1);
+}
+
+
+// Medium grid
+//
+// For the desktop device range@mixin 
+
+@media (min-width: $screen-md-min) {
+	@include make-ratio(md, 2, 1);
+	@include make-ratio(md, 3, 1);
+}
+
+
+// Large grid
+//
+// For the large desktop device range@mixin 
+
+@media (min-width: $screen-lg-min) {
+	@include make-ratio(lg, 2, 1);
+	@include make-ratio(lg, 3, 1);
+}
+*/

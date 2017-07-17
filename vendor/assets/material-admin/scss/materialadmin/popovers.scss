@@ -1,0 +1,27 @@
+//
+// Popovers
+// --------------------------------------------------
+
+
+.popover {
+	color: contrast($popover-bg, $text-color, $white, $color-threshold);
+}
+
+.gui-popover {
+	position:fixed;
+	@include popover-variant($menubar-bg);
+	
+	// Variants
+	&.popover-info {
+		@include popover-variant($brand-info);
+	}
+	&.popover-warning {
+		@include popover-variant($brand-warning);
+	}
+	&.popover-success {
+		@include popover-variant($brand-success);
+	}
+	&.popover-danger {
+		@include popover-variant($brand-danger);
+	}
+}

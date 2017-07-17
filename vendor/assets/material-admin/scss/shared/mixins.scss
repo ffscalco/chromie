@@ -1,0 +1,26 @@
+//
+// Shared Mixins
+// --------------------------------------------------
+
+// Bootstrap
+@import "../bootstrap/mixins.scss";
+
+
+// Utilities
+@import "mixins/typography.scss";
+@import "mixins/vendor-prefixes.scss";
+@import "mixins/animations.scss";
+@import "mixins/triangle.scss";
+
+// Components
+@import "mixins/card.scss";
+@import "mixins/buttons.scss";
+@import "mixins/forms.scss";
+@import "mixins/badge.scss";
+@import "mixins/tab.scss";
+@import "mixins/popover.scss";
+@import "mixins/timeline.scss";
+@import "mixins/chart.scss";
+
+// Layout
+@import "mixins/ratio.scss";

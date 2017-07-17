@@ -1,0 +1,16 @@
+// Core variables and mixins
+@import "../../shared/variables.scss";
+@import "../../shared/mixins.scss";
+
+// Core CSS
+@import "dropzone.scss";
+
+
+
+// Overides
+// -------------------------
+
+.dropzone {
+	border: none;
+	background: inherit;
+}

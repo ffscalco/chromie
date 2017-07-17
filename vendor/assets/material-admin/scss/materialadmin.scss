@@ -1,0 +1,47 @@
+// Core variables and mixins
+@import "shared/variables.scss";
+@import "shared/mixins.scss";
+@import "shared/themes/theme-3.scss";
+
+// Core CSS
+@import "materialadmin/scaffolding.scss";
+@import "materialadmin/hbox.scss";
+@import "materialadmin/typography.scss";
+@import "materialadmin/layout.scss";
+@import "materialadmin/header.scss";
+@import "materialadmin/header-inverse.scss";
+@import "materialadmin/menubar.scss";
+@import "materialadmin/gui-controls.scss";
+@import "materialadmin/gui-controls-inverse.scss";
+@import "materialadmin/sections.scss";
+@import "materialadmin/tables.scss";
+@import "materialadmin/input-groups.scss";
+@import "materialadmin/forms.scss";
+@import "materialadmin/buttons.scss";
+
+// Components
+@import "materialadmin/icons.scss";
+@import "materialadmin/dropdowns.scss";
+@import "materialadmin/tabbar.scss";
+@import "materialadmin/card.scss";
+@import "materialadmin/offcanvas.scss";
+@import "materialadmin/badges.scss";
+@import "materialadmin/progress-bars.scss";
+@import "materialadmin/list.scss";
+@import "materialadmin/navs.scss";
+@import "materialadmin/alerts.scss";
+@import "materialadmin/breadcrumbs.scss";
+@import "materialadmin/accordion.scss";
+@import "materialadmin/timeline.scss";
+@import "materialadmin/login.scss";
+
+
+// Components with JavaScript
+@import "materialadmin/charts.scss";
+@import "materialadmin/modals.scss";
+@import "materialadmin/popovers.scss";
+@import "materialadmin/carousel.scss";
+@import "materialadmin/nanoscroller.scss";
+
+// Utility classes
+@import "materialadmin/utilities.scss";

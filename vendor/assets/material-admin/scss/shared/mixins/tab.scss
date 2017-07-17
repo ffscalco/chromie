@@ -1,0 +1,19 @@
+// Tab mixins
+// --------------------------------------------------
+
+
+// Tab variant
+// -------------------------
+
+@include tab-variant($name; $color) {
+	.nav-tabs.${name} {
+		> li {
+			&.active > a {
+				&, &:hover, &:focus {
+					border-color: $color;
+					color: $color;
+				}
+			}
+		}
+	}
+}
