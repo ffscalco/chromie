@@ -18,6 +18,9 @@ Bundler.require(*Rails.groups)
 
 module Chromie
   class Application < Rails::Application
+    # Use the responders controller from the responders gem
+    config.app_generators.scaffold_controller :responders_controller
+
     # Do not generate specs for views and requests. Also, do not generate assets.
     config.generators do |g|
       g.helper false
@@ -35,7 +38,7 @@ module Chromie
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 5.1
 
-    config.time_zone = ENV.fetch('TZ', 'Brasilia')
+    config.time_zone = ENV.fetch('TZ', 'Brisbane')
 
     config.middleware.use Rack::Deflater
 
@@ -45,5 +48,7 @@ module Chromie
 
     # Don't generate system test files.
     config.generators.system_tests = nil
+
+    config.responders.flash_keys = [ :success, :error ]
   end
 end
