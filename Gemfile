@@ -19,6 +19,8 @@ gem 'sass-rails',             '5.0.6'
 gem 'normalize-rails',        '3.0.3'
 gem 'responders',             '2.4.0'
 gem 'devise',                 '4.3.0'
+gem 'omniauth',               '1.6.1'
+gem 'omniauth-google-oauth2', '0.5.0'
 
 group :production, :staging do
   gem 'rails_12factor',       '0.0.3'
