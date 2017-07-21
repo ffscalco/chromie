@@ -59,4 +59,5 @@ group :development, :test do
   gem 'awesome_print',         '1.7.0'
   gem 'spring-commands-rspec', '1.0.4'
   gem 'spring',                '2.0.1'
+  gem 'fuubar',                '2.2.0'
 end
