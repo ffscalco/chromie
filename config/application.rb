@@ -1,3 +1,4 @@
+# gmail api client id: 49079008519-nqj0h286p3tabat6oq6pb7deibb1a6up.apps.googleusercontent.com
 require_relative 'boot'
 
 require "rails"
